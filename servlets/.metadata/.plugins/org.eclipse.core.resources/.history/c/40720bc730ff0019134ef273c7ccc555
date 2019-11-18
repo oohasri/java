@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" import="java.lang.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title>CheckerBoard</title>
+</head>
+<body>
+	<h1>Checker Board</h1>
+	<% String h = request.getParameter("height"); %>
+	<% String w = request.getParameter("width"); %>	
+	
+    <!-- displaying the value -->
+   
+    <table>
+	<% if (h!= null) { %>
+		<% for(int i=0; i<Integer.parseInt(h); i++) { %>
+		<tr>
+			
+			<% if(w==null) { %>
+				<% for(int j=0; j<8; j++) { %>	
+					<td class="color${((i+j)%2)+1}"></td>
+				<% } %>
+			<% } %>
+			<% if(w!=null) { %>
+				<% for(int j=0; j<Integer.parseInt(w); j++) {%>	
+					<td class="color${((i+j)%2)+1}"></td>
+				<% } %>
+			<% } %>
+		</tr>
+		<% } %>
+	<% } %>
+	<% if(h==null) { %>
+		<% for(int i=0; i<8; i++) { %>
+		<tr>
+			<% if (w==null) { %>
+				<% for(int j=0; j<4; j++) {%>
+					
+					<td class="color1"></td>
+					<td class="color2"></td>
+				<% } %>	
+			<% } %>
+			<% if(w!=null) { %>
+				<% for(int j=0; j<Integer.parseInt(w); j++) { %>	
+					<td class="color${((i+j)%2)+1}"></td>
+				<% } %>	
+			<% } %>
+		</tr>
+		<% } %>
+	<% } %>
+	</table>
+    
+    
+</body>
+</html>

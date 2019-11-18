@@ -1,0 +1,14 @@
+package com.codingdojo.web.models;
+
+public class Cat extends Animal implements Pet {
+
+	public Cat(String name, String breed, String weight) {
+		// TODO Auto-generated constructor stub
+		super();
+		
+	}
+
+	public String showAffection() {
+		return "Dog affection";
+	}
+}

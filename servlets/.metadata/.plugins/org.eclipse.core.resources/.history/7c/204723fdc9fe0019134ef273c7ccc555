@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+.color1{
+			background-color:red;
+			height: 30px;
+			width: 30px;
+		}
+.color2{
+			background-color: black;
+			height: 30px;
+			width: 30px;
+		}
+table{
+	background-color: yellow;
+}

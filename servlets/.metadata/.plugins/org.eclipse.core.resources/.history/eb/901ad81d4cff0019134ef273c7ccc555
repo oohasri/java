@@ -1,0 +1,11 @@
+package com.codingdojo.web.models;
+
+public class Cat {
+	public Cat(String name, String breed, int weight) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String showAffection() {
+		return "Dog affection";
+	}
+}

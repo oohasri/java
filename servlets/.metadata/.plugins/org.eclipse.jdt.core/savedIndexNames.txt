@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\oohas\Documents\CodingDojo\Java\servlets\.metadata\.plugins\org.eclipse.jdt.core
+1016025034.index
+840647044.index
+2380175872.index
+589106922.index
+536366907.index
+3922062443.index
+786311195.index

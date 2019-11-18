@@ -1,0 +1,7 @@
+package com.codingdojo.web.models;
+
+public class Cat {
+	public String showAffection() {
+		return "Dog affection";
+	}
+}

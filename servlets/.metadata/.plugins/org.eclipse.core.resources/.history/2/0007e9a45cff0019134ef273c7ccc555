@@ -1,0 +1,8 @@
+package com.codingdojo.web.models;
+
+public class Cat extends Animal implements Pet {
+
+	public String showAffection() {
+		return "Dog affection";
+	}
+}

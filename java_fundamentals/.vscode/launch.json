@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FizzBuzzTest",
+            "request": "launch",
+            "mainClass": "FizzBuzzTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FirstJava",
+            "request": "launch",
+            "mainClass": "FirstJava"
+        }
+    ]
+}
